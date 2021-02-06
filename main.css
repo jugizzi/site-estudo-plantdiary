@@ -1,0 +1,263 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    ul {
+       padding: 0px!important; 
+    }
+    .menu-principal {
+    width: 100%;
+    background-color:#ffffff;
+    height: 60px;
+    }
+    main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    }
+    .logo {
+     float: left;
+     padding: 13px;
+     width: 70%;
+    }
+    .redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+    }
+    .redes-sociais {
+    width: 22%;
+    float: right;
+    }
+    .header-2 {
+    background-color: #70A086;
+    width: 980px;
+    margin: 0 auto;
+    padding: 12px;
+    }
+    .menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #ffffff;
+    }
+    .menu ul li {
+        display: inline-block;
+        color: #ffffff;
+        margin-left: 15px;
+        margin-top: 16px ;
+        height: 50px;
+    }
+    
+    .menu ul li:hover {
+        border-bottom: 3px solid #70A086;
+    }
+    
+    .menu ul li a:hover {
+        color: #76ffe8;
+        
+        
+    }
+    
+    .menu ul li a {
+        color: #70A086;
+        text-decoration:none;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+    }
+    .menu {
+    width: 70%;
+    float: left;
+    }
+    .busca {
+        text-align: center;
+        width: 30%;
+        float: right;
+
+    }
+
+    .busca input {
+        background-image: url(../img/buscar.png);
+        background-repeat: no-repeat;
+        height: 30px;
+        padding: 14px;
+        width: 190px;
+        margin-top: 24px;
+        background-position: 90%;
+        border-color: #70A086;
+        border-radius: 20px;
+    }
+
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+        color: #3db68a
+    }
+
+    button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 59px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/setaanterior.png');
+    top: 35%;
+    left: 14%;
+}
+    button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 59px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/setaproximo.png');
+    top: 35%;
+    right: 14%;
+}
+   .slick-list {
+    width: 100%!important;
+}
+   .slick-initialized {
+    overflow: hidden;
+}
+   .slick-dots li button {
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 17px;
+    height: 17px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 590px;
+}
+li.slick-octive button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#70A086
+}
+.texto-destaque p {
+    font-size: 20px;
+    font-family:'Segoe UI';
+    color: #26a081;
+}
+.col-3 {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-left: 14px;
+}
+.bloco-imagem b, p {
+    text-align: center;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-family:'Segoe UI';
+    color: #70A086;
+}
+.col-4 {
+    float:left;
+    width: 33%;
+    text-align: left;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 3em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+.footer h3 {
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+
+.footer p {
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+}
+
+.footer-2 p {
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding: 10px;
+}
+
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    float:center;
+    padding-left: 28px;
+    font-family:'Segoe UI';
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.emailico:before {
+    background-image: url('../img/emailico.png');
+}  
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}  
+
