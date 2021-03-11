@@ -7,13 +7,13 @@ body {
        padding: 0px!important; 
     }
     .menu-principal {
-    width: 100%;
+    width: auto;
     background-color:#ffffff;
     height: 60px;
     }
     main, .content {
     margin: 0 auto;
-    width: 980px;
+    width: 1000px;
     position: relative;
     }
     .logo {
@@ -22,7 +22,7 @@ body {
      width: 70%;
     }
     .redes-sociais ul li {
-    margin-left: 25px;
+    margin-left: 30px;
     display: inline-block;
     list-style: none;
     }
@@ -31,8 +31,8 @@ body {
     float: right;
     }
     .header-2 {
-    background-color: #70A086;
-    width: 980px;
+    background-color: #2b9e7c;
+    width: 100%;
     margin: 0 auto;
     padding: 12px;
     }
@@ -49,53 +49,55 @@ body {
     }
     
     .menu ul li:hover {
-        border-bottom: 3px solid #70A086;
+        border-bottom: 3px solid rgb(9, 109, 56);
     }
     
     .menu ul li a:hover {
-        color: #76ffe8;
+        color: #6dc094;
         
         
     }
     
     .menu ul li a {
-        color: #70A086;
+        color: #13855f;
         text-decoration:none;
-        font-size: 14px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-variant: small-caps;
+        font-family: Arial, Helvetica, sans-serif;
         text-transform: uppercase;
     }
     .menu {
-    width: 70%;
+    width: auto;
     float: left;
     }
     .busca {
         text-align: center;
-        width: 30%;
+        width: 40%;
         float: right;
 
     }
 
-    .busca input {
+.busca input {
         background-image: url(../img/buscar.png);
-        background-repeat: no-repeat;
-        height: 30px;
+        background-repeat: no-repeat; 
+        height: 20px;
         padding: 14px;
-        width: 190px;
-        margin-top: 24px;
-        background-position: 90%;
-        border-color: #70A086;
-        border-radius: 20px;
-    }
+        width: 170px;
+        margin-top: 22px;
+        background-position: 95%;
+        border-color: rgb(45, 121, 80);
+        border-radius: 15px;
+}
 
-    .col-100 {
-        width: 100%;
-        float: left;
-        position: relative;
-        color: #3db68a
-    }
+.col-100 {
+  width: 100%;
+  margin: 25%, 0;
+  float: left;
+  position: relative;
+  color: #ffffff
+}
 
-    button.slick-prev {
+button.slick-prev {
     font-size: 0px;
     border: none;
     width: 64px;
@@ -119,126 +121,121 @@ body {
     top: 35%;
     right: 14%;
 }
+
    .slick-list {
     width: 100%!important;
 }
    .slick-initialized {
     overflow: hidden;
 }
-   .slick-dots li button {
-    font-size: 0px;
-    border: 2px solid #ffffff;
-    width: 17px;
-    height: 17px;
-    background: transparent;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.slick-dots {
-    margin: 0 auto;
-    width: 50%;
-    position: absolute;
-    left: 45%;
-    top: 590px;
-}
-li.slick-octive button {
-    background: #00bac6;
-}
+  
 
-.slick-dots li {
-    padding-left: 10px;
-    display: inline-block;
-}
 .texto-destaque {
     text-align: center;
 }
 
 .texto-destaque h1 {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#70A086
-}
-.texto-destaque p {
-    font-size: 20px;
-    font-family:'Segoe UI';
-    color: #26a081;
-}
-.col-3 {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px; 
-    width: 29%;
-    float: left;
-    position: relative;
-}
-.bloco-imagem img {
-    margin: 0 auto;
+    padding: 10px;
     width: 100%;
-    height: auto;
-}
-.bloco-imagem {
-    height: 300px;
-    border: 1px solid #c5c5c5;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    margin-left: 14px;
-}
-.bloco-imagem b, p {
-    text-align: center;
-}
-.bloco-texto {
-    margin-top: 3em;
+    font-size: 26px;
+    font-family: Gill Sans,sans-serif;
+    color: #1c8573;
 }
 
+.texto-destaque h1:hover {
+    color: #ffffff;
+    background-color: #1c8573;
+    border-radius: 10px;
+   -webkit-transition: 0.3s ease-in;
+   -moz-transition: 0.3s ease-in; 
+   -o-transition: 0.3s ease-in;
+   transition: 0.3s ease-in;
+}
+
+.texto-destaque p {
+    font-size: 22px;
+    font-family: Gill Sans, sans-serif;
+    color: #26a081;
+}
+
+.col-100 .botao-chamada{
+  padding-left: 40%;
+}
+
+.col-100 .botao-chamada button {
+   background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+
+.col-100 .botao-chamada button:hover {
+  background-color: white;
+  color: #1c8573;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in; 
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+
+
 h3 {
-    font-family:'Segoe UI';
+    padding-bottom: 15px;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-align: center;
+    font-family:Gill Sans, sans-serif;
     color: #70A086;
 }
+
 .col-4 {
     float:left;
     width: 33%;
     text-align: left;
+
 }
-.col-4 img {
-cursor: pointer;
- margin: 0 auto;
- padding-top: 3em;
- vertical-align: middle;
-}
-.col-4 img:hover {
-    margin-top: 10px!important;
-    position: relative!important;
-}
+
 .footer h3 {
+    padding-top: 19px;
+    padding-left: 12%;
     color: #ffffff;
-    font-family: 'Segoe UI';
+    font-family:Gill Sans, sans-serif;
     text-align: center;
+  
 }
 
 .footer {
-    background-image: url('../img/footer.png');
-    color: #ffffff;
+  background-image: url('../img/footer.png');
+  color: #ffffff;
 }
 
 .footer-2 {
-    background-image: url('../img/footer2.png');
-    color: #c1c1c1;
-    height: 90px;
+  background-image: url('../img/footer2.png');
+  color: white;
 }
 
 
 .footer p {
-    margin-right: 10px;
-    font-size: 14px;
+    font-family:Gill Sans, sans-serif;
+    padding-left: 35px;
+    font-size: 13px;
     text-align: center;
     color: #ffffff;
-    font-family: 'Segoe UI';
 }
 
 .footer-2 p {
-    font-family: 'Segoe UI';
+    font-family:Gill Sans, sans-serif;
     text-align: center;
+    font-size: 14px;
     padding: 10px;
 }
 
@@ -248,8 +245,8 @@ cursor: pointer;
     height: 24px;
     background-repeat: no-repeat;
     float:center;
-    padding-left: 28px;
-    font-family:'Segoe UI';
+    padding-left: 30px;
+    font-family:Gill Sans, sans-serif;
 }
 .local:before {
     background-image: url('../img/local.png');
@@ -260,4 +257,3 @@ cursor: pointer;
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 }  
-
