@@ -1,2 +1,1 @@
-# <!-- site criado para divulgar aplicativo mobile>
-
+Site fictício para implementação de aplicativo mobile, desenhado e criado por mim.
